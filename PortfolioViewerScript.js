@@ -2,7 +2,7 @@
 Riya Uppal & Shreya Joshi
 ICS4UR
 This is the js for the portfolio viewer.
-STORES DATA BUT DOES NOT DISPLAY INVESTMENTS - need to edit
+STORES DATA BUT DOES NOT DISPLAY INVESTMENTS
 ***********************************************************************************/
 
 var amount = [];
