@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+
+}
+
+h1 {
+	text-align:center;
+}
+
+h2 {
+	text-align: center; 
+	font-family: "Times New Roman", serif;
+    font-weight: 300
+}
+
+h3 {
+	text-align:center;
+	font-family: "Times New Roman", serif;
+    font-weight: 300
+}
+
+h4 {
+	text-align:center;
+	font-family: "Times New Roman", serif;
+    font-weight: 300
+}
+
+input{
+   text-align:center;
+}

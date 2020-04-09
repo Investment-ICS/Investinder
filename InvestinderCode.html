@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--**************************************************************
+Riya Uppal & Shreya Joshi
+ICS4UR
+This is the html to add to the investor portfolio.
+****************************************************************-->
+<html>
+    <head>
+        <title> My Investment Portfolio </title>
+        <script src="Portfolio.js"></script>
+        <link rel="stylesheet" type="text/css" href="Investment.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Times New Roman:300" rel="stylesheet">
+    </head>
+
+<body>
+  <h1> <u>My Investment Portfolio</u> </h1>
+  <h2> <b>Enter Your Investment Information Below:</b></h2>   
+
+  <h3> Enter Company Name </h3>
+  <center><input type="text" placeholder="Enter Company Name" id="companyName" value="Enter Company Name"></center> 
+  <br>
+  <h3> Choose Company Industry:</h3>
+  <center><select id="companyIndustry">
+          <option value= "Select">Select </option>
+          <option value= "Finance">Finance </option>
+          <option value= "Retail">Retail </option>
+          <option value= "Food">Food </option>
+          <option value= "Logistics">Logistics </option>
+          <option value= "IT">IT </option>
+          <option value= "Marketing">Marketing </option>
+          <option value= "Clothing">Clothing </option>
+          <option value= "Other">Other </option>
+    </select></center>
+  <h3> Enter Investment Amount: </h3>
+  <center><input type="text" placeholder="Enter Amount" id= "amount" value="Enter Amount"></center>
+  
+  <h3> Enter Your Equity: </h3>
+  <center><input type="text" placeholder="Enter Equity" id= "equity" value="Enter Equity"></center>
+
+   <h3> Contact Information: </h3>
+  <center><input type="text" placeholder="Enter Contact Information" id= "contact" value="Enter Contact Information"></center>
+</body>
+   <center><br> <br> <input type="Submit" onclick= "getData()"id=Submit></center>
+   <h4> <b><i>Congratulations!</i></b> </h4>
+
+    <center><a href="PortfolioViewer.html"><button>View Investments</button></a></center>
+    
+</html>
+    
