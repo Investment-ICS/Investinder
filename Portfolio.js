@@ -1,5 +1,5 @@
 /*******************************************
-Riya Uppal & Shreya Joshi
+Riya Uppal
 ICS4UR
 This is the js to add to the investment portfolio.
 ********************************************/
