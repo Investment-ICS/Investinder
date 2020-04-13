@@ -39,4 +39,3 @@ function readstorage() {
     r += 1;
 }
 
-
