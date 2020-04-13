@@ -2,7 +2,6 @@
 Riya Uppal
 ICS4UR
 This is the js for the portfolio viewer.
-STORES DATA BUT DOES NOT DISPLAY INVESTMENTS
 ***********************************************************************************/
 
 var amount = [];
