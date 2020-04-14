@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<!--************************************************
+    Diya Amin
+    ICS4UR
+    Date: April 15 2020
+    This is the Investor Registration HTML 
+**************************************************-->
+
+<html>
+    
+    <!--****** This is a registration screen for investors who would like to sign up with INVESTINDER*****-->
+    
+    <head>
+        <title> INVESTINDER </title> 
+        <script src="Registration.js"></script>
+        <link rel ="stylesheet" type="text/css" href="RegistrationStyle.css" >
+        <img src="Investinder%20Image.jpg" alt="InvestinderImage" style="width:40px;height:10px;border:0;">
+       
+        <style>
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%
+                }
+        </style>
+        
+        <h1><b><center>INVESTINDER</center></b></h1>
+    </head>
+    
+    <body>
+        <center> 
+            
+        <h2> You Have Chosen To Register As An Investor!</h2>
+        <h2> Please Enter The Information Below:</h2>
+        
+            
+ <!--********These are the questions an investor must answer in order to register********-->  
+        
+        <br>   
+        <h3> Enter Your Name: </h3>
+        <input type="text" placeholder="Enter Name Here" id="investorName" value="Enter Name Here">
+            
+        <h3>Enter Your Email Address:</h3>    
+        <input type="text" placeholder="Enter Email Here" id="investorEmail" value="Enter Email Here">
+            
+        <h3> Choose Your Industry:</h3>
+        <select id="investorIndustry">
+            <option value= "Select">Select </option>
+            <option value= "Finance">Finance </option>
+            <option value= "Retail">Retail </option>
+            <option value= "Food">Food </option>
+            <option value= "Logistics">Logistics </option>
+            <option value= "IT">IT </option>
+            <option value= "Marketing">Marketing </option>
+            <option value= "Clothing">Clothing </option>
+            <option value= "Other">Other </option>
+            </select>
+            
+        <h3> Choose Type of Investment:</h3>
+        <select id="investmentType">
+            <option value= "Select">Select </option>
+            <option value= "Money">Money </option>
+            <option value= "Guidance">Guidance </option>
+            <option value= "Both">Both </option>
+            </select>
+            
+        <h3>Enter Investment Amount:</h3>    
+        <input type="text" placeholder="Enter Amount Here" id="investedAmount" value="Enter Amount Here">
+            
+        <br><br><input type="Submit" onclick= "getData()"id=Submit><br><br>
+            
+        <h4><r>Congratulations You Have Succesfully Registered!</r></h4>
+            
+        <a href="http://127.0.0.1:55899/InvestmentViewer.html"><button>View Investments</button></a>    
+        
+            
+<!--******These buttons allow users to switch between the screens (profile, match and settings screen)*******-->  
+        <br> 
+        <br>
+        <style>       
+            #profile {
+                width: 200px;
+                height: 100px;
+                background-color: lightgray;
+                padding: .5em;
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+                border-radius: 6px;
+                color: #000000;
+                font-family: 'Oswald';
+                font-size: 40px;
+                text-decoration: none;
+                border:medium solid blue;
+                }
+        
+            #profile:hover {
+                border: none;
+                background-color: darkgray;
+                box-shadow: 0px 0px 1px #777;
+                }
+        </style>    
+   
+        <button id="profile">☺</button>
+            
+        <style>        
+            #match {
+                width: 200px;
+                height: 100px;
+                background-color: lightgray;
+                padding: .5em;
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+                border-radius: 6px;
+                color: #0000FF;
+                font-family: 'ARIAL';
+                font-size: 40px;
+                text-decoration: none;
+                border:medium solid blue;
+                }
+           
+            #match:hover {
+                border: thin;
+                background-color: darkgray;
+                box-shadow: 0px 0px 1px #777;
+                }
+         </style> 
+            
+        <button id="match">MATCH</button>
+            
+        <style>       
+            #settings {
+                width: 200px;
+                height: 100px;
+                background-color: lightgray;
+                padding: .5em;
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+                border-radius: 6px;
+                color: #fff;
+                font-family: 'Oswald';
+                font-size: 40px;
+                text-decoration: none;
+                border:medium solid blue;
+                }
+                
+            #settings:hover {
+                border: none;
+                background-color: darkgray;
+                box-shadow: 0px 0px 1px #777;
+                }
+        </style>    
+            
+            <button id="settings"> ⚙ </button>
+        
+           </center>
+     </body>
+
+</html>
+        
