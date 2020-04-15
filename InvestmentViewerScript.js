@@ -1,9 +1,9 @@
-/************************************************
-    Diya Amin
-    ICS4UR
-    Date: April 15 2020
-    This is the Investment Viewer Script 
-**************************************************/
+//**********************************************//
+//    Diya Amin                                 //
+//    ICS4UR                                    //
+//    Date: April 15 2020                       //
+//    This is the Investment Viewer Script      //
+//**********************************************//
 
 
 var investorName = [];
@@ -36,7 +36,7 @@ document.getElementById("result").innerHTML= result;
 
 }
 
-/********** once the function starts it reads the storage and displays the contact information **********/
+/********** once the function starts it reads the storage and displays the investors information **********/
 
 function start() {
     readstorage();
