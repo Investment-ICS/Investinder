@@ -1,10 +1,10 @@
-/****Backround of the Investment Viewer page***/
+/*****Backround of the Investment Viewer page****/
 body   {
     background-color:aliceblue;
 }
 
 
-/***INVESTINDER titiel****/
+/***I*NVESTINDER titie****/
 h1    {
         color:blue;
         margin-left: 4px;
@@ -18,7 +18,7 @@ h1    {
 }
 
 
-/***Add Investment Button****/
+/****Add Investment Button****/
 button {
         background-color: #008CBA; /* Blue */
         border: none;
