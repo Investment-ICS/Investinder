@@ -1,0 +1,70 @@
+/**Backround of the App**/
+body   {
+    background-color:aliceblue;
+    
+    }  
+
+/**Investinder Title**/
+h1    {
+        color:blue;
+        margin-left: 4px;
+        text-align: center;
+        font-family:serif;
+        font-size: 50px;
+        height: 40px;
+        text-decoration-style: solid; 
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+
+/**Instructions to the Investor**/
+h2    {
+        font-family:serif;
+        font-size: 25px;
+        font-weight: 400px;
+        height : 3px;
+    }
+
+/**Heading for the textbox and Select options**/
+h3    {
+        height : 15px; 
+    }
+
+/**Instructions after the investor has inputted thier information**/
+h4    {
+        height: 2px;
+        font-family: fantasy;
+        font-style: normal;       
+    }
+
+/**Textbox for investors to input their informaiton**/
+input {
+        font-size:15px;
+        outline border-width: thick;
+        border: 1px solid black;
+        outline-style: ridge;
+        outline-color: blue;
+        outline-width: thin;
+    }
+
+/**Select Options for investors to choose from**/
+select {
+        font-size: 15px;
+        outline border-width: thick;
+        border: 1px solid black;
+        outline-style: solid;
+        outline-color: blue;
+        outline-width: thin
+    }
+
+/**View investment button**/
+button {
+        background-color: #008CBA; /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
